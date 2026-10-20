@@ -1,0 +1,34 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="MIT"
+
+[[mods]]
+modId="smooth_quest_canvas"
+version="${modVersion}"
+displayName="Smooth Quest Canvas"
+authors="LeoRegulus"
+description='''Smooth dragging and release inertia for the FTB Quests canvas. Client-side only.'''
+
+[[mixins]]
+config="smooth_quest_canvas.mixins.json"
+
+[[dependencies.smooth_quest_canvas]]
+modId="neoforge"
+type="required"
+versionRange="[21.1,21.2)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.smooth_quest_canvas]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1]"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.smooth_quest_canvas]]
+modId="ftbquests"
+type="required"
+versionRange="[2101,2102)"
+ordering="AFTER"
+side="CLIENT"

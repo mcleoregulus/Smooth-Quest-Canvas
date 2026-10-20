@@ -1,0 +1,8 @@
+{
+  "required": true,
+  "package": "com.leoregulus.smoothquestcanvas.mixin",
+  "plugin": "com.leoregulus.smoothquestcanvas.compat.QuestPanMixinPlugin",
+  "compatibilityLevel": "JAVA_21",
+  "client": ["QuestScreenPanMixin", "PanelPanRenderMixin"],
+  "injectors": {"defaultRequire": 1}
+}
